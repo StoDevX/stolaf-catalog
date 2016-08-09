@@ -1,0 +1,45 @@
+/*Courseleaf Controls*/
+#pw_toolbar,
+#pw_toolbar_toggle,
+#pw_statusbar,
+#sb_publish_bubble_bottom,
+#warningwin,
+#loadingwin,
+.lfeditable,
+.lfjsbubble {
+	display: none;
+}
+
+/*Tabs*/
+#tabs {
+	display: none !important;
+}
+.tab_content {
+	display: block !important;
+}
+
+/*A-Z Index*/
+#content ul.letternav {
+	margin: 0 0 1em 0;
+}
+#content ul.letternav li {
+	display: inline;
+}
+
+
+.accessible,#header,#navigation,#footer,#sidebar,#print-button,#search,a#totop,#breadcrumb {
+	display: none !important;
+}
+
+body {
+	font-family: "Roboto", sans-serif, Arial, Helvetica;
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 1;
+}
+#content h1 { font-size:2.2em; font-weight: 600; color:#333; margin:0 0 30px 0; padding:0; line-height: 1; }
+#content h2 {font-size: 1.6em; margin: 1.2em 0 .25em 0; }
+#content h3 {font-size: 1.4em; margin: 1.2em 0 .25em 0; }
+#content h4 {font-size: 1.2em; margin: 1.5em 0 .25em 0; }
+#content h5 {font-size: 1.1em; margin: 1.5em 0 .25em 0; }
+#content h6 {font-size: 1em; margin: 1.5em 0 .25em 0; }
