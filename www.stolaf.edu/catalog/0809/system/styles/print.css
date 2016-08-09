@@ -1,0 +1,210 @@
+/* CSS Document */
+
+
+
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:11pt;
+	width:90%;
+	margin:0;
+	padding:0;
+}
+
+
+
+#header {
+	display:none;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+#photoholder {
+  display:none;
+}
+
+#navphoto {
+	display:none;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+
+}
+
+#caption {
+	display:none;
+	width:1px;
+	height:1px;
+	float:none;
+}
+
+
+
+
+
+
+
+#logo {
+	display:none;
+	width:1px;
+	
+
+}
+
+
+
+#content {
+	width:90%;
+	position:relative;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	line-height:18pt;
+
+}
+
+
+
+ul#mainnav {
+
+	float:none;
+	display:none;
+
+}
+
+
+
+#photoshadow {
+	display:none;
+	}
+
+#photolink {
+	display:none;
+	}
+	
+#center {
+	width:90%;
+	float:none;
+
+}
+
+
+
+#content-home {
+
+	position:relative;
+	width:90%;
+	float:none;
+}
+
+
+
+#center-home {
+	width:90%;
+	float:none;
+}
+
+
+
+#outer-home {
+
+}
+
+
+
+#right-home {
+
+	float:none;
+	display:none;
+}
+
+
+
+
+
+
+
+img#news {
+
+	float:none;
+	width:100%;
+
+}
+
+
+
+#single {
+	width:90%;
+	float:none !important;
+	line-height:18pt;
+	font-size:12pt;
+}
+
+
+
+#left {
+
+	width:90%;
+	float:none !important;
+	line-height:16pt;
+	font-size:12pt;
+
+}
+
+
+
+#right {
+	display:none;
+	float:none !important;
+}
+
+
+
+#footer {
+
+	width:90%;
+	/* float:none; */
+	font-size:10pt;
+	padding:10px 0 0 0;
+	line-height:14pt;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#000;
+	page-break-after: avoid; page-break-inside: avoid; 
+}
+
+h1 {
+	font-size:18pt;
+}
+
+h2 {
+	font-size:16pt;
+}
+
+h3 {
+	font-size:15pt;
+}
+
+h4 {
+	font-size:14pt;
+}
+
+h5 {
+	font-size:13pt;
+}
+
+h6 {
+	font-size:12pt;
+}
+
+a {
+	color:#000;
+}
+
+
+a:visited {
+	color:#000;
+}

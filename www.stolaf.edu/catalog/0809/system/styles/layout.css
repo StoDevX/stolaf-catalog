@@ -1,0 +1,300 @@
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#b0aeab;
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#header {
+/*	width:100%;
+	background-color:#c78812; 
+	margin:0;
+	padding:10px 0 10px 0;
+	height:34px; */
+	width:940px;
+        background-color:#c78812;
+        margin:0;
+        padding:10px 0 10px 0;
+        height:34px;
+        left:50%;
+        margin-left:-470px;
+        position:relative;
+}
+
+#headcontent {
+	width:920px;
+	margin:0 auto 0 auto;
+	padding:0;
+}
+
+img#head {
+	float:left;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+#stonav {
+	width:238px;
+	height:33px;
+	color:#fff;
+	font-size:10px;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+#stonav ul {
+	list-style-type:none;
+	margin:0 0 5px 0;
+	padding:0;
+	clear:both;
+	float:right;
+}
+
+#stonav ul li {
+	margin:0; 
+	padding:0;
+}
+
+#stonav ul li a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#stonav ul li a:hover {
+	color:#000000;
+	text-decoration:underline;
+}
+
+#searchform fieldset {
+	display:inline;
+	border-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+#searchform {
+	font-size:10px;
+	margin:0;
+	padding:0;
+	width:238px;
+	display:inline;
+}
+
+#search {
+	margin:0;
+	padding:1px 1px 1px 0;
+	font-size:10px;
+	border:none;
+	width:148px;
+	display:inline;
+	height:13px;
+}
+
+#searchsubmit {
+	font-size:10px;
+	background-color:#666666;
+	border:none;
+	color:#ffffff;
+	height:16px;
+	display:inline;
+	margin:0;
+	padding:1px 1px 2px 1px;
+	width:48px;
+}
+
+#photoholder {
+	width:940px;
+	height:264px;
+	padding:0;
+	background-color:#B0AEAB;
+	text-align:center;
+	overflow:hidden;
+	margin:auto;
+}
+
+#photo {
+	margin:0;
+	padding:0;
+	vertical-align:bottom; /* gets rid of the small gap after the image in 
+	IE where IE thinks there is a line of text */
+}
+
+#caption {
+	width:940px;
+	height:35px;
+	color:#fff;
+	font-size:11px;
+	background-color:#c78812;
+	margin:0 auto 0 auto;
+	padding:0;
+}
+
+#caption p {
+	text-align:center;
+	margin:0;
+	padding:10px 0 0 0;
+	font-size:12px;
+	width:100%;
+}
+
+#logo {
+	position:absolute;
+	left:50%;
+	margin-left:-460px;
+	top:295px;
+	z-index:15;
+}
+
+#logo img  {
+	border-style:none;
+}
+
+#container {
+	width:940px;
+	padding:0;
+	margin:0 auto 0 auto;
+}
+
+#content {
+	width:940px;
+	padding:0;
+	margin:0;
+	float:left;
+	min-height:100%;
+	position:relative;
+	height:100%;
+}
+
+ul#mainnav {
+	float:left;
+	list-style-type:none;
+	font-size:12px;
+	padding:10px;
+	margin:0;
+	background-color:#ddd;
+	width:140px;
+	color: #000;
+	overflow:hidden;
+	height:100%;
+}
+
+ul#mainnav p {
+	font-size:11px;
+	font-weight:normal;
+}
+
+ul#mainnav li {
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	height:100%;
+}
+
+ul#mainnav li a {
+	color:#000;
+	text-decoration:none;
+}
+
+ul#mainnav li a:visited {
+	color:#333;
+}
+
+ul#mainnav li a:hover {
+	color:#c78812;
+}
+
+ul.subnav {
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:11px;
+	list-style-type:none;
+	text-indent: -1em; 
+	margin-left: 1em;
+}
+
+ul#mainnav li ul.subnav li {
+	margin:3px 0 6px 0;
+	padding:0;
+	font-weight:normal;
+}
+
+ul.subnav li a {
+	text-decoration:none;
+}
+
+ul.subnav li a:hover {
+	text-decoration:none;
+	text-decoration:underline;
+}
+
+ul.subnav li a:visited {
+	color:#333;
+}
+
+ul#contact {
+	margin:30px 0 0 0;
+	padding:0;
+	font-size:smaller;
+	line-height:1em;
+	color:#555;
+}
+
+ul#contact li {
+	margin:3px 0 3px 0;
+	list-style-type:none;
+	font-weight:normal;
+	padding:0;
+	line-height:14px;
+}
+
+#contact li#phone {
+	margin-top:15px;
+}
+
+#contact li#deptname {
+	font-weight:bold;
+}
+
+#contact li p {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+ul#contact li a {
+	color:#555;
+}
+
+#footer {
+	width:940px;
+	text-align:center;
+	color:#ddd;
+	background-color:#404040;
+	font-size:10px;
+	padding:10px 0 0 0;
+	float:left;
+	clear:both;
+}
+
+#footer a {
+	color:#ffffff;
+}
+
+#footer a:visited {
+	color:#ffffff;
+}
+
+#footer a:hover {
+	color:#000000;
+}
