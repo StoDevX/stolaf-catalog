@@ -1,0 +1,19 @@
+.tochead {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000}
+.toc {  font-family: Arial, Helvetica, sans-serif; font-size: 12px}
+.programname {  font-family: "Myriad Roman", Verdana, Arial, Helvetica, sans-serif; font-size: 26px; font-weight: bold; line-height: 30px}
+.url {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold}
+.faculty {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px}
+.programdescription {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; font-style: italic}
+.goldhead {  font-family: "Myriad Roman", Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #CC9900; font-weight: bold; text-transform: uppercase; line-height: 125%}
+.goldsubhead { font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #CC9900; font-weight: bold; text-transform: uppercase}
+.coursename {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal
+}
+.body {  font-family: Arial, Helvetica, sans-serif; font-size: 12px}
+.subhead {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; text-transform: none; line-height: 110%}
+.rightarrow { font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: c9900}
+.alert {color:#FF0000; font-weight:bold;}
+h6 {font-size: 12px; line-height:16px}
+h6 a {font-size:11px;}
