@@ -22,11 +22,12 @@ ignore=(
 	/catalogcontents/
 	/cim/
 	/clmail/
+	/css/
 	/courseadmin/
 	/courseleaf/
 	/dbleaf/
 	/import/
-	# /images/
+	/images/
 	/fonts/
 	/js/
 	/mig/
