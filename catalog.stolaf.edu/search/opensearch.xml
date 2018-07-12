@@ -1,9 +1,0 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" >
-<ShortName>Catalog</ShortName>
-<Description>Search the current edition of the Catalog</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<Image height="16" width="16" type="image/x-icon">/favicon.ico</Image>
-
-<SearchForm>http://catalog.stolaf.edu/search/</SearchForm>
-<Url type="text/html" method="get" template="http://catalog.stolaf.edu/search/?P={searchTerms}"></Url>
-</OpenSearchDescription>
