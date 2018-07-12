@@ -1,0 +1,15 @@
+sudo: false
+dist: trusty
+language: generic
+
+before_script:
+  - git config user.name "Heroku Databot"
+  - git config user.email "hawkrives+sto-catalog-databot@gmail.com"
+
+script:
+  - ./mirror.sh
+
+after_script:
+  - git add .
+  - git commit -m "catalog update $(date)" || (echo "No updates found." && exit 0)
+  - git push "https://$GITHUB_OAUTH@github.com/stodevx/course-data.git" master
