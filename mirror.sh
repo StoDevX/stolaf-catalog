@@ -1,5 +1,5 @@
 #!/bin/bash
-set -vex
+set -ve
 
 # -e robots=off: ignore robots.txt
 # --mirror: equivalent to -r -N -l inf --no-remove-listing

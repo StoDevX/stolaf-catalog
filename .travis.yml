@@ -1,17 +1,21 @@
-sudo: false
 dist: trusty
+sudo: required
+services: [docker]
 language: generic
 
 jobs:
   include:
     - if: type IN (api, cron)
 
+      install:
+        - docker build -t mirror .
+
       before_script:
         - git config user.name "Heroku Databot"
         - git config user.email "hawkrives+sto-catalog-databot@gmail.com"
 
       script:
-        - ./mirror.sh
+        - docker run -it -v $(pwd):/app mirror /app/mirror.sh
 
       after_script:
         - git add .
