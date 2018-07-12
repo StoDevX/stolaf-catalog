@@ -15,7 +15,7 @@ jobs:
         - git config user.email "hawkrives+sto-catalog-databot@gmail.com"
 
       script:
-        - docker run -it -v $(pwd):/app mirror /app/mirror.sh
+        - docker run -it -v $(pwd):/app mirror /app/mirror.sh || (echo "A problem occurred" && exit 0)
 
       after_script:
         - git add .
